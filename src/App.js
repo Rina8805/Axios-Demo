@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import ViewUsers from './ViewUsers';
+import ViewAlbums from './ViewAlbums';
+import ViewPhotos from './ViewPhotos';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <h1>Axios Library...!</h1>
+
+    <ViewUsers/> &nbsp;
+    <h1>View Albums...!</h1>
+    <ViewAlbums/>
+    <h1>View Photos...!</h1>
+    <ViewPhotos/>
     </div>
   );
 }
